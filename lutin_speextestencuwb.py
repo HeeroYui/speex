@@ -15,6 +15,7 @@ def create(target):
 		'libspeex/testenc_uwb.c'
 		])
 	
+	myModule.compile_version_CC(1989, gnu=True)
 	# name of the dependency
 	myModule.add_module_depend('speex')
 	
